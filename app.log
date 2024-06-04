@@ -1,0 +1,10 @@
+2024-06-05 00:22:31,264 - root - INFO - Initialisation du navigateur Firefox
+2024-06-05 00:22:37,707 - root - INFO - Navigation vers la page de vote
+2024-06-05 00:22:38,017 - root - INFO - Saisie du nom
+2024-06-05 00:22:38,061 - root - INFO - Clique sur le bouton 'Continuer'
+2024-06-05 00:22:38,291 - root - INFO - Attente du chargement du nouveau bouton 'Vote N°1'
+2024-06-05 00:22:38,299 - root - INFO - Clique sur le bouton 'Vote N°1'
+2024-06-05 00:22:38,325 - root - INFO - Cocher la case 'Verify you are human'
+2024-06-05 00:22:49,633 - root - INFO - Opération de vote réussie!
+2024-06-05 00:22:49,633 - root - INFO - Fermeture du navigateur
+2024-06-05 00:22:49,633 - root - INFO - Script terminé
