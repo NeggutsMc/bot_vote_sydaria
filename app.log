@@ -1,10 +1,11 @@
-2024-06-05 00:22:31,264 - root - INFO - Initialisation du navigateur Firefox
-2024-06-05 00:22:37,707 - root - INFO - Navigation vers la page de vote
-2024-06-05 00:22:38,017 - root - INFO - Saisie du nom
-2024-06-05 00:22:38,061 - root - INFO - Clique sur le bouton 'Continuer'
-2024-06-05 00:22:38,291 - root - INFO - Attente du chargement du nouveau bouton 'Vote N°1'
-2024-06-05 00:22:38,299 - root - INFO - Clique sur le bouton 'Vote N°1'
-2024-06-05 00:22:38,325 - root - INFO - Cocher la case 'Verify you are human'
-2024-06-05 00:22:49,633 - root - INFO - Opération de vote réussie!
-2024-06-05 00:22:49,633 - root - INFO - Fermeture du navigateur
-2024-06-05 00:22:49,633 - root - INFO - Script terminé
+2024-06-05 03:10:09,953 - root - INFO - Initialisation du navigateur Firefox
+2024-06-05 03:10:16,181 - root - INFO - Navigation vers la page de vote
+2024-06-05 03:10:17,758 - root - INFO - Saisie du nom
+2024-06-05 03:10:17,801 - root - INFO - Clique sur le bouton 'Continuer'
+2024-06-05 03:10:18,052 - root - INFO - Vérification de la disponibilité du bouton 'Vote N°1'
+2024-06-05 03:10:18,062 - root - INFO - Le bouton 'Vote N°1' sera cliquable dans 638 secondes.
+2024-06-05 03:10:57,437 - root - INFO - Fermeture du navigateur
+2024-06-05 03:10:57,438 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/073f3f5d-60d6-413e-9587-fa7f3164f532
+2024-06-05 03:10:57,438 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71f9cb273620>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/073f3f5d-60d6-413e-9587-fa7f3164f532
+2024-06-05 03:10:57,439 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71f9cb2736b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/073f3f5d-60d6-413e-9587-fa7f3164f532
+2024-06-05 03:10:57,445 - root - INFO - Script terminé
