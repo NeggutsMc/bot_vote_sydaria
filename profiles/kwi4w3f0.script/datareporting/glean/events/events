@@ -1,0 +1,6 @@
+{"timestamp":6162343,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required"}}
+{"timestamp":6162765,"category":"nimbus_events","name":"is_ready"}
+{"timestamp":6163828,"category":"translations.panel","name":"open","extra":{"first_interaction":"false","document_language":"en","flow_id":"34926f26-e6df-40af-90a4-e21b37b5937c","auto_show":"true","opened_from":"translationsButton","view_name":"defaultView"}}
+{"timestamp":6165281,"category":"translations.panel","name":"close","extra":{"flow_id":"34926f26-e6df-40af-90a4-e21b37b5937c","first_interaction":"false"}}
+{"timestamp":6169583,"category":"urlbar","name":"engagement","extra":{"results":"autofill_about","interaction":"typed","groups":"heuristic","n_chars":"14","selected_position":"1","engagement_type":"enter","sap":"urlbar","provider":"Autofill","search_mode":"","selected_result_subtype":"","n_results":"1","selected_result":"autofill_about","n_words":"1","search_engine_default_id":"google-ubuntu-sn"}}
+{"timestamp":6185239,"category":"urlbar","name":"abandonment","extra":{"groups":"top_site,top_site,top_site,top_site,top_site","n_results":"5","results":"top_site,top_site,top_site,top_site,top_site","search_engine_default_id":"google-ubuntu-sn","n_chars":"0","interaction":"topsites","n_words":"0","search_mode":"","abandonment_type":"blur","sap":"urlbar"}}
