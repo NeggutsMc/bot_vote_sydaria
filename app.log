@@ -1,20 +1,8 @@
-2024-06-06 20:10:31,185 - INFO - Setting up the test method
-2024-06-06 20:15:27.407 | INFO     | a:setup_method:19 - Setting up the test method
-2024-06-06 20:15:52.012 | INFO     | a:setup_method:19 - Setting up the test method
-2024-06-06 20:23:33.850 | INFO     | __main__:setup_method:14 - Setting up the method
-2024-06-06 20:23:38.167 | INFO     | __main__:run_sydariavote:35 - Starting the method
-2024-06-06 20:23:42.495 | INFO     | __main__:run_sydariavote:51 - Element not clickable, waiting for 5 minutes before retrying
-2024-06-06 20:23:58.783 | INFO     | __main__:teardown_method:23 - Tearing down the method
-2024-06-06 20:28:47.359 | INFO     | __main__:setup_method:14 - Setting up the method
-2024-06-06 20:28:51.770 | INFO     | __main__:run_sydariavote:35 - Starting the method
-2024-06-06 20:28:53.991 | INFO     | __main__:run_sydariavote:51 - Element not clickable, waiting for 5 minutes before retrying
-2024-06-06 20:32:05.198 | INFO     | __main__:teardown_method:23 - Tearing down the method
-2024-06-06 20:32:05.391 | INFO     | __main__:setup_method:14 - Setting up the method
-2024-06-06 20:32:30.067 | INFO     | __main__:setup_method:14 - Setting up the method
-2024-06-06 20:32:38.768 | INFO     | __main__:setup_method:14 - Setting up the method
-2024-06-06 20:33:47.191 | INFO     | __main__:setup_method:14 - Setting up the method
-2024-06-06 20:33:51.763 | INFO     | __main__:run_sydariavote:36 - Starting the method
-2024-06-06 20:33:53.742 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
-2024-06-06 20:38:53.752 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
-2024-06-06 20:43:53.762 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
-2024-06-06 20:48:53.771 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
+2024-06-06 23:16:38.688 | INFO     | __main__:setup_method:17 - Setting up the method
+2024-06-06 23:16:38.724 | INFO     | __main__:setup_method:27 - /home/gxku/Documents/script1
+2024-06-06 23:17:24.683 | INFO     | __main__:setup_method:17 - Setting up the method
+2024-06-06 23:17:24.720 | INFO     | __main__:setup_method:27 - /home/gxku/Documents/script1
+2024-06-06 23:20:12.723 | INFO     | __main__:setup_method:17 - Setting up the method
+2024-06-06 23:20:12.763 | INFO     | __main__:setup_method:27 - /home/gxku/Documents/script1
+2024-06-06 23:20:30.552 | INFO     | __main__:setup_method:17 - Setting up the method
+2024-06-06 23:20:30.625 | INFO     | __main__:setup_method:27 - /home/gxku/Documents/script1
