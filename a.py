@@ -9,6 +9,8 @@ from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import ElementClickInterceptedException, WebDriverException
 from loguru import logger
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.service import Service as FirefoxService
 
 # Load configuration from external file
 config = configparser.ConfigParser()
@@ -27,10 +29,10 @@ def setup_method():
 
     # Log the current working directory
     logger.info(current_working_directory)
-    options.binary_location = config['DEFAULT']['FirefoxBinaryPath']
+    #options.binary_location = config['DEFAULT']['FirefoxBinaryPath']
 
     try:
-        driver = webdriver.Firefox(options=options)
+        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
     except WebDriverException as e:
         logger.error(f"Failed to initialize the webdriver: {e}")
         return None, None
