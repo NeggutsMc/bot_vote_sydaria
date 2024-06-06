@@ -6,3 +6,27 @@
 2024-06-06 23:20:12.763 | INFO     | __main__:setup_method:27 - /home/gxku/Documents/script1
 2024-06-06 23:20:30.552 | INFO     | __main__:setup_method:17 - Setting up the method
 2024-06-06 23:20:30.625 | INFO     | __main__:setup_method:27 - /home/gxku/Documents/script1
+2024-06-07 00:27:13.331 | INFO     | __main__:setup_method:24 - Setting up the method
+2024-06-07 00:27:13.368 | INFO     | __main__:setup_method:33 - /home/gxku/Documents/pythonProject
+2024-06-07 00:28:49.231 | INFO     | __main__:setup_method:23 - Setting up the method
+2024-06-07 00:28:49.268 | INFO     | __main__:setup_method:32 - /home/gxku/Documents/pythonProject
+2024-06-07 00:29:17.497 | INFO     | __main__:setup_method:23 - Setting up the method
+2024-06-07 00:29:17.534 | INFO     | __main__:setup_method:32 - /home/gxku/Documents/pythonProject
+2024-06-07 00:30:00.148 | ERROR    | __main__:setup_method:38 - Failed to initialize the webdriver: Message: Process unexpectedly closed with status 1
+
+2024-06-07 00:30:00.153 | ERROR    | __main__:main:86 - Failed to setup the method, waiting for 5 minutes before retrying
+2024-06-07 00:32:11.929 | INFO     | __main__:setup_method:23 - Setting up the method
+2024-06-07 00:32:11.969 | INFO     | __main__:setup_method:32 - /home/gxku/Documents/pythonProject
+2024-06-07 00:33:11.024 | INFO     | __main__:setup_method:23 - Setting up the method
+2024-06-07 00:33:11.061 | INFO     | __main__:setup_method:32 - /home/gxku/Documents/pythonProject
+2024-06-07 00:33:47.603 | INFO     | __main__:setup_method:23 - Setting up the method
+2024-06-07 00:33:47.640 | INFO     | __main__:setup_method:32 - /home/gxku/Documents/pythonProject
+2024-06-07 00:35:03.084 | ERROR    | __main__:setup_method:37 - Failed to initialize the webdriver: Message: Failed to read marionette port
+
+2024-06-07 00:35:03.089 | ERROR    | __main__:main:85 - Failed to setup the method, waiting for 5 minutes before retrying
+2024-06-07 00:35:06.002 | INFO     | __main__:setup_method:22 - Setting up the method
+2024-06-07 00:35:06.002 | INFO     | __main__:setup_method:31 - /home/gxku/Documents/pythonProject
+2024-06-07 00:35:07.690 | INFO     | __main__:run_sydariavote:55 - Starting the method
+2024-06-07 00:35:09.746 | INFO     | __main__:run_sydariavote:66 - Button clicked successfully
+2024-06-07 00:35:12.006 | INFO     | __main__:run_sydariavote:78 - Method completed
+2024-06-07 00:35:12.007 | INFO     | __main__:main:90 - Waiting for 1h30m before next vote
