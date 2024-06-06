@@ -1,5 +1,20 @@
-2024-06-05 11:52:20,500 - root - INFO - Initialisation du navigateur Firefox
-2024-06-05 11:52:31,083 - root - INFO - Navigation vers la page de vote
-2024-06-05 11:52:33,054 - root - INFO - Saisie du nom
-2024-06-05 11:52:33,111 - root - INFO - Clique sur le bouton 'Continuer'
-2024-06-05 11:52:33,334 - root - INFO - Vérification de la disponibilité du bouton 'Vote N°1'
+2024-06-06 20:10:31,185 - INFO - Setting up the test method
+2024-06-06 20:15:27.407 | INFO     | a:setup_method:19 - Setting up the test method
+2024-06-06 20:15:52.012 | INFO     | a:setup_method:19 - Setting up the test method
+2024-06-06 20:23:33.850 | INFO     | __main__:setup_method:14 - Setting up the method
+2024-06-06 20:23:38.167 | INFO     | __main__:run_sydariavote:35 - Starting the method
+2024-06-06 20:23:42.495 | INFO     | __main__:run_sydariavote:51 - Element not clickable, waiting for 5 minutes before retrying
+2024-06-06 20:23:58.783 | INFO     | __main__:teardown_method:23 - Tearing down the method
+2024-06-06 20:28:47.359 | INFO     | __main__:setup_method:14 - Setting up the method
+2024-06-06 20:28:51.770 | INFO     | __main__:run_sydariavote:35 - Starting the method
+2024-06-06 20:28:53.991 | INFO     | __main__:run_sydariavote:51 - Element not clickable, waiting for 5 minutes before retrying
+2024-06-06 20:32:05.198 | INFO     | __main__:teardown_method:23 - Tearing down the method
+2024-06-06 20:32:05.391 | INFO     | __main__:setup_method:14 - Setting up the method
+2024-06-06 20:32:30.067 | INFO     | __main__:setup_method:14 - Setting up the method
+2024-06-06 20:32:38.768 | INFO     | __main__:setup_method:14 - Setting up the method
+2024-06-06 20:33:47.191 | INFO     | __main__:setup_method:14 - Setting up the method
+2024-06-06 20:33:51.763 | INFO     | __main__:run_sydariavote:36 - Starting the method
+2024-06-06 20:33:53.742 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
+2024-06-06 20:38:53.752 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
+2024-06-06 20:43:53.762 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
+2024-06-06 20:48:53.771 | INFO     | __main__:run_sydariavote:52 - Element not clickable, waiting for 5 minutes before retrying
