@@ -3,14 +3,13 @@
 import os
 import time
 import configparser
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 from selenium.common.exceptions import ElementClickInterceptedException, WebDriverException
 from loguru import logger
 from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.firefox.service import Service as FirefoxService
 
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -20,16 +19,18 @@ logger.add(config['DEFAULT']['LogPath'])
 def setup_method():
     logger.info("Setting up the method")
     options = Options()
-    options.add_argument('-headless')
-    options.add_argument('-profile')
-    options.add_argument(config['DEFAULT']['FirefoxProfilePath'])
+    options.add_argument('--headless')  # Ensure headless mode
 
-    current_working_directory = os.getcwd()
+    # Use GeckoDriverManager to handle the driver path
+    service = Service(GeckoDriverManager().install())
 
-    logger.info(current_working_directory)
+    # Get the correct Firefox profile path (replace with the actual path from your WSL2 Firefox installation)
+    profile_path = config['DEFAULT']['FirefoxProfilePath']
+    options.profile = webdriver.FirefoxProfile(profile_path)
 
     try:
-        driver = webdriver.Firefox(service=FirefoxService(executable_path=GeckoDriverManager().install()), options=options)
+        driver = webdriver.Firefox(service=service, options=options)
+        return driver, {}  # Empty dictionary for vars
     except WebDriverException as e:
         logger.error(f"Failed to initialize the webdriver: {e}")
         return None, None
