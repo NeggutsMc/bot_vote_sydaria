@@ -2,6 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import configparser
@@ -56,13 +57,14 @@ def main():
     firefox_options = webdriver.FirefoxOptions()
     firefox_options.add_argument("--headless")  # Utiliser Firefox en mode headless
 
-    # Configuration du profil Firefox
-    firefox_profile = webdriver.FirefoxProfile(profile_path)
-    firefox_options.profile = firefox_profile
+    # Chemin vers l'exécutable Firefox
+    firefox_path = "/snap/bin/firefox" 
 
-    # Initialisation du pilote Firefox avec les options configurées
-    driver = webdriver.Firefox(options=firefox_options)
+    # Initialisation du service Firefox
+    service = Service(executable_path=firefox_path)
 
+    # Initialisation du pilote Firefox avec le service
+    driver = webdriver.Firefox(service=service, options=firefox_options)
     try:
         # Étape 1 : Ouvrir l'URL cible
         driver.get("https://sydaria.fr/vote")
