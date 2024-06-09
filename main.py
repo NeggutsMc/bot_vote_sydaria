@@ -44,7 +44,7 @@ def wait_until_clickable(driver, by, value, check_interval=60, max_timeout=6000)
     raise TimeoutError("Le bouton n'est pas devenu cliquable dans le délai imparti.")
 
 def main():
-    config = load_config('/bot_vote_sydaria/config.ini')
+    config = load_config('config.ini')
 
     window_data = {}  # Utilisation d'un dictionnaire pour stocker les données des fenêtres
     username = config['Credentials']['username']
